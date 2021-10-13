@@ -12,11 +12,6 @@ readme = "README.md"
 keywords = ["fuzzing", "security", "testing", "fuzz"]
 authors = ["Luke Craig <lacraig3@gmail.com>"]
 
-exclude = [
-    "radamsa/bin/*",
-    "radamsa/lib/*",
-]
-
 [dependencies]
 libc = "0.2.103"
 
