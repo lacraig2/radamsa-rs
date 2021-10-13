@@ -15,6 +15,11 @@ fn build_dep_check(tools: &[&str]) {
 }
 
 fn main() {
+    if let Ok(_) = var("DOCS_RS") {
+        // no clone for building docs
+        return;
+    }
+
     println!("cargo:rerun-if-changed=build.rs");
 
     let target_os =
