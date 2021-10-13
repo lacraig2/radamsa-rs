@@ -10,7 +10,7 @@ homepage = "https://github.com/lacraig2/radamsa-rs"
 repository = "https://github.com/lacraig2/radamsa-rs"
 readme = "README.md"
 keywords = ["fuzzing", "security", "testing", "fuzz"]
-Authors = ["Luke Craig <lacraig3@gmail.com>"]
+authors = ["Luke Craig <lacraig3@gmail.com>"]
 
 exclude = [
     "radamsa/bin/*",
@@ -19,3 +19,6 @@ exclude = [
 
 [dependencies]
 libc = "0.2.103"
+
+[build-dependencies]
+which = "4.2.2"
