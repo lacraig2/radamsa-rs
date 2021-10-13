@@ -10,6 +10,6 @@ The API is notably different from the `radamsa` C API in a few ways:
 - It renames the `radamsa_inplace` function to `mutate`.
 - It makes seeds optional by establishing a global atomic counter that increments.
 
-Other than that go take a look at the [docs](docs.rs/radamsa).
+Other than that go take a look at the [docs](https://docs.rs/radamsa).
 
 I used this project as a means to learn some rust packaging. I am very open to PRs and Issues.
