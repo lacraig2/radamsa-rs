@@ -5,9 +5,17 @@ edition = "2021"
 build = "build.rs"
 license = "MIT"
 description = "Radamsa made available to Rust via FFI"
+documentation = "https://docs.rs/radamsa"
 homepage = "https://github.com/lacraig2/radamsa-rs"
 repository = "https://github.com/lacraig2/radamsa-rs"
 readme = "README.md"
+keywords = ["fuzzing", "security", "testing", "fuzz"]
+Authors = ["Luke Craig <lacraig3@gmail.com>"]
+
+exclude = [
+    "radamsa/bin/*",
+    "radamsa/lib/*",
+]
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
